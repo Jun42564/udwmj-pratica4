@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>viaCep</title>
+    <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>
+            Buscador de CEP
+        </h1>
+        <div class="imput-group">
+            <imput type = "text" id="cepImput" placeholder= "Digite o CEP: (apenas números) maxlenght = "8">
+                <button id = "searchButton">Buscar</button>     
+            </div>
+        <div id= "result" class="result-box">
+            <p>
+                <strong>
+                    CEP:
+                </strong>
+                <span id="cepResult">
+
+                </span>
+            </p>
+            <p>
+                <strong>
+                    Estado:
+                </strong>
+                <span id="estadoResult">
+
+                </span>
+            </p>
+            <p>
+                <strong>
+                    Cidade
+                </strong>
+                <span id="cidadeResult">
+
+                </span>
+            </p>
+            <p>
+                <strong>
+                    Logradouro
+                </strong>
+                <span id="logradouroResult">
+
+                </span>
+            </p>
+             <p>
+                <strong>
+                    Complemento
+                </strong>
+                <span id="complementoResult">
+
+                </span>
+            </p>
+            <p>
+                <strong>
+                    Bairro
+                </strong>
+                <span id="bairroResult">
+
+                </span>
+            </p>
+            <div id="message" class="message-box hidden"></div>
+        </div>
+    </div>
+    <script src="assets/JS/script.js"></script>    
+</body>
+</html>

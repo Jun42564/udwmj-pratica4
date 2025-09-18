@@ -1,0 +1,78 @@
+body {
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aliceblue;
+    display: flex;
+    justify-content: center;
+    height: 100vh;
+    margin: 0;
+}
+
+.conteiner {
+    background-color: #fff;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 90%;
+    max-width: 500px;
+}
+h1 {
+    color: #333;
+}
+
+.imput-group {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+}
+
+#cepinput {
+    padding:  10px;
+    border: 1px solid #ccc;
+    border-radius: 4px 0 0 4px;
+    flex-grow: 1;
+    font-size: 16px;
+    outline: none;
+}
+
+#serchbotton {
+    padding: 10px 15px;
+    border: none;
+    background-color: blue;
+    color: black;
+    border-radius: 0 4px 4px 0;
+    cursor: pointer;
+    font-size: 16px;
+    transition: background-color 0.3s ease;
+}
+
+#searchbotton hover {
+    background-color: #0056b3;
+}
+.result-box {
+    text-align: left;
+    margin-top: 20px;
+    border-top: 2px solid #eee;
+    padding: 20px;
+}
+.result-box p {
+    margin: 8px 0;
+    line-height: 1.5;
+}
+
+.result-box strong {
+    color: #555;
+}
+.message-box {
+    margin-top: 20px;
+    padding: 15px;
+    border-radius: 4px;
+    text-align: center;
+}
+.error {
+    background-color: azure;
+    color: tomato;
+    border: 1px solid #f5c6cb;
+}
+.hidden {
+    display: none;
+}
